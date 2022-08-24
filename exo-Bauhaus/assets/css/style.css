@@ -1,0 +1,38 @@
+
+#footer{
+    background-color: black;
+    padding: 50px;
+}
+
+#vid{
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.navbar{
+    background-color: black;
+}
+.carousel-inner{
+    background-color:black;
+}
+
+.carousel-inner img {
+    margin: auto;
+    min-height:200px;
+    max-height: 400px !important;
+}
+
+
+
+.container {
+    padding: 80px 120px;
+  }
+
+@media (max-width: 600px) {
+    .carousel-inner {
+      display: none; 
+    }
+}

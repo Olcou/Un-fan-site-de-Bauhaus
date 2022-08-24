@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bauhaus - le groupe</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo_Bauhaus-nom.jpg" alt="Bauhaus" height="36">
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+                    aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#intro">Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#membres">Membres</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#bio" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Biographie
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#origines">Origines</a></li>
+                                <li><a class="dropdown-item" href="#bela4ad">Bela Lugosi's Dead et 4AD</a></li>
+                                <li><a class="dropdown-item" href="#bb">Beggars Banquet</a></li>
+                                <li><a class="dropdown-item" href="#postretours">Post-séparation et retours
+                                        successifs</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#discographie">Discographie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#video">Vidéos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <!-- Carousel-->
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/groupe1.jpg" class="d-block w-50 img-fluid" alt="Bauhaus_photo1_NB">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Une photographie datant des années 80</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/groupe2.jpg" class="d-block w-50 img-fluid" alt="Bauhaus_photo2_NB">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Une photographie datant des années 80</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/groupe3.webp" class="d-block w-50 img-fluid" alt="Bauhaus_photo3_NB">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Une photographie datant des années 80</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/groupe4.webp" class="d-block w-50 img-fluid" alt="Bauhaus_photo4_NB">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Une photographie datant des années 80</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/flyer.jpg" class="d-block w-50 img-fluid" alt="Bauhaus_flyer_NB">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Mask LP Tour Dates</h5>
+                        <p>Designer: Daniel Ash</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br>
+    <!-- Intro-->
+    <div class="container border">
+        <h1>Bauhaus</h1>
+        <h3 class="text-center" id="intro">Introduction :</h3><br>
+        <div class="row">
+            <div class="col-sm-5">
+                <img src="assets/images/Bauhaus_logo2.png" class="img-responsive" style="width:100%" alt="Image">
+                <figcaption class="figure-caption text-center">Logo de <b>Bauhaus</b></figcaption>
+            </div>
+            <div class="col-sm-7 row align-items-center">
+                <p>
+                    <b>Bauhaus</b>est un groupe de rock gothique britannique, originaire de
+                    Northampton, en Angleterre. Formé en 1979 par quatre étudiants en art, le groupe se
+                    distingue par son chanteur Peter Murphy et une musique incorporant des éléments de glam rock et
+                    une théâtralité empruntée à David Bowie. Leur premier single <i>Bela Lugosi's Dead</i> sort en 1979.
+                    Leur premier album In the Flat Field paraît en 1980. Sur l'album Mask en 1981, la palette
+                    musicale de <b>Bauhaus</b> s'élargit avec des éléments dub et reggae. Ils se séparent en 1983 à la
+                    suite d'un concert donné à Londres à l'Hammersmith Palais. <b>Bauhaus</b> cite parmi leurs
+                    influences les groupes de cold-wave anglais de la période 1977-1979,
+                    <b>Siouxsie and the Banshees</b> et <b>Joy Division</b>.[Source :Wikipedia]
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Membres-->
+    <div class="container text-center">
+        <h3 id="membres">Le groupe:</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <p><strong>Peter Murphy</strong></p><br>
+                <a href="#demo" data-toggle="collapse">
+                    <img src="assets/images/peter-murphy.jpg" class="img-responsive" alt="Peter Murphy" width="255"
+                        height="255">
+                </a>
+                <div id="demo" class="collapse">
+                    <p>Chant.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <p><strong>Daniel Ash</strong></p><br>
+                <a href="#demo2" data-toggle="collapse">
+                    <img src="assets/images/Daniel-ash-.jpg" class="img-responsive" width="255" height="255"
+                        alt="Daniel Ash">
+                </a>
+                <div id="demo2" class="collapse">
+                    <p>Guitare, saxophone.</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <p><strong>David J</strong></p><br>
+                <a href="#demo3" data-toggle="collapse">
+                    <img src="assets/images/David_J.jpg" class="img-responsive" alt="David J" width="255" height="255">
+                </a>
+                <div id="demo3" class="collapse">
+                    <p>Basse.</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <p><strong>Kevin Haskins</strong></p><br>
+                <a href="#demo4" data-toggle="collapse">
+                    <img src="assets/images/Kevin Haskins.jpg" class="img-responsive" alt="Kevin Haskins" width="255"
+                        height="255">
+                </a>
+                <div id="demo4" class="collapse">
+                    <p>Batterie.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </br>
+    <!-- Bio : origines-->
+    <div class="container text-center container border">
+        <h3 id="origines">La Biographie : les origines.</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 row align-items-center">
+                <p>
+                    Daniel Ash, son ami David J. Haskins, et le frère cadet de Haskins, Kevin, ont joué ensemble dans
+                    divers groupes. L'un d'entre eux s'appelle <b>The Craze</b>, au sein duquel ils jouent à Northampton
+                    en 1978. Cependant, <b>The Craze</b> se sépare rapidement, et Ash essaye encore une fois de
+                    convaincre
+                    son ami Murphy de le rejoindre, selon Ash, simplement car il avait le bon profil pour être membre
+                    d'un
+                    groupe. Murphy, qui travaillait dans une imprimerie, décide d'essayer, bien qu'il n'ait jamais
+                    écrit de morceaux. Pendant les répétitions, il écrit <i>In the Flat Field</i>.
+
+                    Un ancien compagnon de groupe d'Ash, Kevin Haskins, se joint à la batterie. Ash décide de ne pas
+                    inviter David J, la tête pensante de leurs anciens groupes, car il souhaitait avoir le contrôle de
+                    son nouveau groupe. À la place, Chris Barber le rejoint à la basse, et ensemble, les musiciens
+                    forment <b>S.R.</b>. Cependant, à peine quelques semaines après sa création, <b>S.R.</b> se sépare,
+                    et Ash, Murphy et Haskins s'associent avec David J. sous le nom de <b>Bauhaus 1919</b>.
+                    Le groupe joue son premier concert au pub Cromwell de Wellingborough au passage du Nouvel an 1978.
+                    Le groupe choisit le nom de
+                    <b>Bauhaus 1919</b> en référence au mouvement artistique homonyme des années 1920. [Source
+                    :Wikipedia]
+                </p>
+            </div>
+            <div class="col-sm-6 row align-items-center embed-responsive">
+                <video controls src="assets/videos/In the Flat Field.mp4">Morceau In The Flat Field</video>
+                <figcaption class="figure-caption text-center">Morceau <i>In The Flat Field</i></figcaption>
+            </div>
+        </div>
+    </div>
+    </br>
+    <!-- Bio : origines-->
+    <div class="container text-center container border">
+        <h3 id="bela4ad">Bela Lugosi's Dead et 4AD :</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 row align-items-center">
+                <p>
+                    Après seulement six mois d'existence en tant que groupe, <b>Bauhaus</b> entre en studio pour la
+                    première fois aux Beck Studios de Wellingborough pour enregistrer une démo. L'un des cinq
+                    morceaux enregistrés pendant la session, <i>Bela Lugosi's Dead</i>, qui dure plus de neuf minutes,
+                    est publié
+                    comme premier single du groupe en août 1979 au label Small Wonder Records. Le groupe est renommé
+                    <b>Bauhaus</b>, et le « 1919 » est abandonné. Le single est bien accueilli par Sounds, et reste dans
+                    les classements britanniques pendant deux ans. Il est diffusé sur la BBC Radio 1 et dans l'émission
+                    du DJ John Peel ; <b>Bauhaus</b> est alors demandé en session pour l'émission de Peel, qui est
+                    diffusée le
+                    3 janvier 1980.
+
+                    Après avoir signé avec le label 4AD, le groupe publie deux nouveaux singles, Dark Entries en
+                    janvier 1980, et Terror Couple Kill Colonel en juin 1980, avant de publier leur premier album, In
+                    the Flat Field, en octobre 1980. NME le décrit comme de la « pseudo-décadence gothick-romantick ».
+                    Malgré un accueil négatif, In the Flat Field, atteint la 72e place de l'UK Albums Chart. En
+                    décembre 1980, <b>Bauhaus</b> publie une reprise de Telegram Sam, un succès des pionniers du glam
+                    rock T.
+                    Rex. Ce titre est interprété par le groupe dans un night club lors de la séquence d'ouverture du
+                    film
+                    <i>Les Prédateurs (The Hunger)</i> de Tony Scott en 1983, alors que Catherine Deneuve et David Bowie
+                    jouent
+                    le rôle d'un couple de vampires à la recherche de leurs proies. [Source :Wikipedia]
+                </p>
+            </div>
+            <div class="col-sm-6 row align-items-center">
+                <img src="assets/images/bela-session-lp_7970_768.jpg" class="img-responsive" style="width:100%"
+                    alt="Bela Lugosi's Dead">
+                <figcaption class="figure-caption text-center">Artworkdu single <i>Bela Lugosi's Dead</i> </figcaption>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <!-- Bio : Beggars Banquet-->
+    <div class="container text-center container border">
+        <h3 id="bb">Beggars Banquet :</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 row align-items-center">
+                <p>
+                    Après le succès de <b>Bauhaus</b> durant sa période 4AD, le groupe se délocalise au sein du label
+                    parent, Beggars Banquet Records. <b>Bauhaus</b> publie <i>Kick in the Eye</i> en mars 1981 pour ses
+                    débuts au label. Le single atteint la 56e place des charts. Le single qui suit, <i>The Passion of
+                        Lovers</i>, atteint lui aussi la 56e place en juillet 1981. <b>Bauhaus</b> publie son deuxième
+                    album,<i>Mask</i>, en octobre 1981.
+
+                    En juillet 1982, <b>Bauhaus</b> sort le single <i>Spirit</i>S produit par Hugh Jones. Attendu dans
+                    le top 30, il n'atteint que la 42e place. Le groupe se retrouve insatisfait du single, et le
+                    ré-enregistre
+                    plus tard en 1982 pour son troisième album, <i>The Sky's Gone Out</i>. <b>Bauhaus</b> publie son
+                    quatrième album, <i>Burning from the Inside</i>, en 1983 et joue son dernier concert le 5 juillet de
+                    la même
+                    année au Hammersmith Palais avant de se séparer. [Source :Wikipedia]
+                </p>
+            </div>
+
+            <div class="col-sm-6 row align-items-center">
+                <img src="assets/images/logo beggar banquet.jpeg" class="img-responsive" style="width:100%"
+                    alt="beggat banquet">
+                <figcaption class="figure-caption text-center">Un des logo du label Beggar Banquet</figcaption>
+            </div>
+
+        </div>
+    </div>
+    </br>
+    <!-- Bio : Post-séparation et retours successifs-->
+    <div class="container text-center container border">
+        <h3 id="postretours">Post-séparation et retours successifs :</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 row align-items-center">
+                <p>
+                    Les membres s'en vont former les groupes <b>Tones on Tail</b>, <b>Dalis Car</b> et <b>Love and
+                        Rockets</b> ou encore
+                    suivre des carrières en solo, notamment pour Peter Murphy, Daniel Ash et David J.
+                    </br>
+                    Kevin Haskins produit des musiques pour jeux vidéo et film sous le pseudonyme Messy.
+                </p>
+            </div>
+            <div class="col-sm-6 row align-items-center">
+                <p><b>Bauhaus</b> se reforme une première fois en 1998 pour une tournée baptisée
+                    <i>Resurrection Tour</i>, quelques dates à guichet fermé à New York et en Europe qui ont donné
+                    naissance
+                    au DVD <i>Gotham</i>.
+                    En 2005, le groupe se forme à nouveau et effectue une tournée européenne. En 2006, le groupe assure
+                    la première partie de la tournée américaine de <b>Nine Inch Nails</b>. À la fin de la tournée
+                    2006, le groupe démarre l'enregistrement de l'album <i>Go Away White</i>. Quelques mois plus tard,
+                    le
+                    groupe annonce sa séparation à la suite de différents problèmes internes, notamment la volonté du
+                    guitariste Daniel Ash de se consacrer uniquement à ses projets solos. Une tournée était prévue
+                    néanmoins au début
+                    de 2009.[Source :Wikipedia]
+                </p>
+            </div>
+        </div>
+    </div>
+    </br>
+    <!-- Discographie-->
+    <div class=" container text-center">
+        <h3 id="discographie">Discographie :</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p><strong></strong></p><br>
+
+                <img src="assets/images/In the flat.jpg" class="img-responsive" alt="in the flat flied" width="255"
+                    height="255">
+                <figcaption class="figure-caption text-center"><I>In the Flat Field</I>- label : 4AD - 1980</figcaption>
+            </div>
+
+            <div class="col-sm-4">
+                <p><strong></strong></p><br>
+
+                <img src="assets/images/mask.jpeg" class="img-responsive" width="255" height="255" alt=" Mask">
+                <figcaption class="figure-caption text-center"><i>Mask</i> - label : 4AD - 1981</figcaption>
+            </div>
+
+            <div class="col-sm-4">
+                <p><strong></strong></p><br>
+
+                <img src="assets/images/The Sky's Gone Out.jpeg" class="img-responsive" width="255" height="255"
+                    alt="The Sky's Gone Out">
+                <figcaption class="figure-caption text-center"><i>The Sky's Gone Out</i> - label : Beggars Banquet -1982
+                </figcaption>
+
+            </div>
+            <div class="col-sm-6">
+                <p><strong></strong></p><br>
+
+                <img src="assets/images/Burning From The Inside.jpeg" class="img-responsive" width="255"
+                    alt="burning from the inside" width="255" height="255">
+                <figcaption class="figure-caption text-center"><i>Burning from the Inside</i> - label : Beggars Banquet
+                    - 1983</figcaption>
+
+            </div>
+            <div class="col-sm-6">
+                <p><strong></strong></p><br>
+
+                <img src="assets/images/Bauhaus_-_Go_Away_White.jpg" class="img-responsive" width="255" height="255"
+                    alt="Go Away White">
+                <figcaption class="figure-caption text-center"><i>Go Away White</i> - label : Cooking Vinyl - 2008
+                </figcaption>
+            </div>
+        </div>
+    </div>
+    </br>
+    <!-- Video-->
+    <div class=" container text-center">
+        <h3 id="video">Vidéos :</h3>
+    </div>
+    <div class="container-fluid" id="vid">
+        <br>
+        <div class="row">
+            <div class="col-sm-4 row align-items-center embed-responsive">
+                <video controls src="assets/videos/Bela Lugosi's Dead by bauhaus live on Riverside.mp4">Bela Lugosi's
+                    Dead</video>
+                <figcaption class="figure-caption text-center"><i>Bela Lugosi's Dead</i></figcaption>
+            </div>
+
+            <div class="col-sm-4 row align-items-center embed-responsive">
+                <video controls src="assets/videos/Bauhaus - She's In Parties.mp4">She's In Parties</video>
+                <figcaption class="figure-caption text-center"><i>She's In Parties</i></figcaption>
+            </div>
+            <div class="col-sm-4 row align-items-center embed-responsive">
+                <video controls
+                    src="assets/videos/BAUHAUS   _Incredible version_ Dark Entries Live - London 2_24_1982.mp4">Dark
+                    Entries</video>
+                <figcaption class="figure-caption text-center"><i>Dark Entries live (1982)</i></figcaption>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer-->
+    <footer class="container-fluid text-center " id="footer">
+
+        <form class="form-inline" id="contact">
+            <input type="email" class="form-control" size="50" placeholder="Email Address">
+            <button type="button" class="btn btn-light">Restez informé de l'actualité de Bauhaus !</button>
+        </form>
+    </footer>
+
+</body>
+
+</html>
